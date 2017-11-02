@@ -2,6 +2,7 @@
   "name": "barb-nutrition-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://awadewilli.github.io/Nutrition-Fact-Calculator",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
@@ -13,6 +14,8 @@
     "react-scripts": "1.0.10"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
